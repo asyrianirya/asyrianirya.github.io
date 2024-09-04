@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 0;
+    border-radius: 0px;
+    width: 150px;
+    height: 100%;
+    margin: 10px;
+}
+
+.card .card-title {
+    font-size: 15px;
+}
+
+.card img {
+    width: 64px;
+    height: 64px;
+}
+
+.card:hover {
+    background-color: rgb(224, 250, 250);
+    border: 1px solid rgb(190, 245, 245)
+}
+
+input[type='radio'] {
+    visibility: hidden;
+}
+
+.card-body {
+    height: 100%;
+}
